@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const xssFilter = require("x-xss-protection");
 const logger = require("morgan");
 const app = express();
-const port = process.env.SERVER_PORT;
+const port = process.env.PORT;
 
 const whiteList = process.env.WHITELIST;
 
